@@ -1,3 +1,8 @@
+// ==Builder==
+// @required
+// @package           GM
+// ==/Builder==
+
 if(typeof GM_log != 'undefined')
 {
   Browser.Request = function() {
