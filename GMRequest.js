@@ -32,7 +32,7 @@ if(typeof GM_log != 'undefined')
       this.url = url;
     },
   
-    setRequestHeader: function(key, values) { this.headers[key] = value; },
+    setRequestHeader: function(key, value) { this.headers[key] = value; },
     getResponseHeader: function(key) { return this.responseHeaders[key]; },
     send: function(data) {
       GM_xmlhttpRequest({
